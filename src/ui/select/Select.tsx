@@ -3,9 +3,10 @@ import { useState, useRef } from 'react';
 import arrowDown from 'src/images/arrow-down.svg';
 import { Text } from 'src/ui/text';
 
+import { useOutsideClickClose } from '@hooks/useOutsideClickClose.ts';
+
 import { isFontFamilyClass } from './helpers/isFontFamilyClass';
 import { useEnterSubmit } from './hooks/useEnterSubmit';
-import { useOutsideClickClose } from './hooks/useOutsideClickClose';
 import { Option } from './Option';
 
 import type { MouseEventHandler } from 'react';
